@@ -53,7 +53,8 @@
     color: rgb(56, 54, 51);
     cursor: pointer;
 }
-.navlist ul li button{
+
+.navlist ul li button {
     margin-top: 2px;
     margin-left: 950px;
     border-radius: 10px;
@@ -65,12 +66,14 @@
     border: 2.5px solid rgb(179, 176, 176);
     background: rgb(180, 20, 20);
     text-align: center;
-    overflow: hidden;
+
 }
-.navlist ul li button:hover{
+
+.navlist ul li button:hover {
     border: 2px solid rgb(180, 20, 20);
 }
-.navlist ul li .log .right:hover{
+
+.navlist ul li .log .right:hover {
     color: #262626;
     cursor: pointer;
     border: 2px solid #ff0d0d;
@@ -218,7 +221,8 @@ hr {
     width: 20px;
     height: 20px;
 }
-.p1{
+
+.p1 {
     font-size: 21px;
     font-family: 'Playfair Display', serif;
     font-weight: bolder;
@@ -226,6 +230,7 @@ hr {
     padding: 15px;
     color: #262626;
 }
+
 .var {
     display: flex;
 }
@@ -325,13 +330,17 @@ footer {
         padding-top: 10px;
         padding-left: 5px;
     }
-    .navlist ul li button{
+
+    .navlist ul li button {
         width: 43px;
         height: 40px;
+        padding-top: 2px;
+        margin-left: 137px;
     }
-    .navlist ul li button a{
-font-size: 13px;
-margin-left: -18px;
+
+    .navlist ul li button a {
+        font-size: 13px;
+        margin-left: -18px;
     }
 
     .navlist ul li a {
@@ -343,7 +352,7 @@ margin-left: -18px;
     .navlist ul li a:after {
         color: rgb(56, 54, 51);
     }
-    
+
 
     .main .title {
         font-size: 15px;
@@ -440,7 +449,7 @@ margin-left: -18px;
         margin-top: -10px;
     }
 
-    .p1{
+    .p1 {
         font-size: 15px;
         font-family: 'Playfair Display', serif;
         font-weight: bolder;
@@ -448,5 +457,5 @@ margin-left: -18px;
         padding: 15px;
         color: #262626;
     }
-    
+
 }
