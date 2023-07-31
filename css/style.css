@@ -56,7 +56,7 @@
 
 .navlist ul li button {
     margin-top: 2px;
-    margin-left: 950px;
+    margin-left: 830px;
     border-radius: 10px;
     width: 90px;
     height: 44px;
@@ -96,9 +96,9 @@
 .carpic img {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    max-width: 600px;
-    padding: 0 361px;
+    width: 41%;
+    /* max-width: 600px; */
+    padding: 0px 364px;
     margin-bottom: -30px;
 }
 
@@ -256,7 +256,7 @@ hr {
 }
 
 .var img {
-    width: 332px;
+    width: 300px;
 }
 
 .redco {
