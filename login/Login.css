@@ -6,24 +6,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-body {
-    width: 100vw;
-    padding-top: 60px;
-    padding-right: 100px;
-    min-height: 100vh;
-    background: #23242a url(back.jpg);
-    font-family: 'Poppins', sans-serif;
-    background-repeat: no-repeat;
-    margin-top: -86px;
+body{
+    background: #222;
 }
 
 
+.back{
+    margin-bottom: -813px;
+    background: cover;
+    width: 100vw;
+}
 .pngsup img {
     width: 600px;
     padding-top: 100px;
     padding-left: 100px;
-    margin-bottom: -98px;
+    margin-bottom: -25px;
 }
 
 .box {
@@ -35,7 +32,7 @@ body {
     overflow: hidden;
     float: right;
 
-
+    margin-right: 50px
 
 }
 
@@ -225,10 +222,10 @@ body {
 }
 
 .container {
-    width: 107%;
+    width: 100vw;
     display: flex;
     align-items: center;
-    margin-left: 5px;
+    margin-left: -11px;
     padding-top: 50px;
     justify-content: center;
 
@@ -319,17 +316,51 @@ body {
    
     
 }
+.mobtri{
+    display: none;
+}
+.mobnav{
+    display: none;
+}
+.logo{
+    display: none;
+}
+@media only screen and (max-width:500px) {
+    
+.back{
+    display: none;
+}
+.mobtri{
+    display: flex;
+    width: 100vw;
+}
+.mobnav{
+    display: flex;
+width: 100vw;
+height: 40px;
+justify-content: end;
+background: black;
+margin-top: -14px;
+    
 
-@media only screen and (max-width:720px) {
-    body {
-        width: 393px;
-        background:#23242a url(bacmob.jpg) no-repeat;
-        margin-top: 750px;
-        padding-right: 6px;
-
+}
+.mobnav img{
+    width: 55px;
+padding-right: 10px;
+margin-top: -15px;
+padding: 5px;
+}
+.logo{
+    display: block ;
+    background: black;
+}
+    .left{
+        width: 70px;
+        margin-bottom: -38px;
+        padding: 5px;
+        
     }
 
-    
 
     .pngsup img {
         width: 363px;
@@ -342,12 +373,20 @@ body {
     .pngsup {
         margin-top: -900px;
     }
-    .box {
-        float: right;
-        margin-top: -100px;
-        position: sticky;
-
+    .v-class {
+        opacity:0 ;
     }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        margin-top: -750px;
+        position: relative;
+       margin-right: 9px;
+       
+       transition: all 1s ease;
+    }
+
     .container{
     width: 99%;
     display: flex;

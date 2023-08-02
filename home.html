@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOYOTA SUPRA Mk6 | Home</title>
+    <link rel="stylesheet" href="home/home.css">
+</head>
+
+<body>
+   <div class="container">
+    <div class="navbar h-nav">
+        <div class="left"><img src="home/logo.png" alt=""></div>
+
+        <nav class="navlist v-class">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#list">Our-List of Cars</a></li>
+                <li><a href="#media">Media</a></li>
+            </ul>
+        </nav>
+        <img src="home/menu.png" alt="" class="menu">
+    </div>
+    <div class="backimg">
+        <img src="home/back.jpg" alt="">
+        <div class="btn">
+            <button><a href="supra.html">Visit full site</a></button>
+        </div>
+    </div>
+    <div class="media">
+        <h1>Media</h1>
+        <h3>Newly Launched Car Supra Mk5</h3>
+        <iframe width="1080" height="608" src="https://www.youtube.com/embed/UvPhnhI8pLM" title="Playing God - Cinematic Feature-Length Film (Supra Mk6)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+   </div>
+   <footer>
+    <img src="png/TMP Logo.png" alt="" class="biglogo">
+    <ul class="foo">
+
+        <li><a href="https://www.instagram.com/toyotamotorphilippines/"><img src="png/inst.png" alt=""></a></li>
+        <li><a href="https://www.youtube.com/channel/UC5rnxQeDpMnyCZD8KH7cZMA"><img src="png/you.png" alt=""></a>
+        </li>
+        <li><a href="https://twitter.com/toyotamotorph/status/1148542799978958849"><img src="png/twi.png"
+                    alt="twi"></a>
+        </li>
+
+    </ul>
+    
+</footer>
+   <script type="text/javascript">
+    const menu = document.querySelector(".menu")
+    const navbar = document.querySelector(".navbar")
+    const navlist = document.querySelector(".navlist")
+
+    menu.addEventListener('click',()=>{
+    navlist.classList.toggle('v-class')
+    })
+</script>
+</body>
+
+</html>
