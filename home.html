@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOYOTA SUPRA Mk6 | Home</title>
+    <link rel="shortcut icon" type="x-icon" href="png/pngwing.com.png">
     <link rel="stylesheet" href="home/home.css">
 </head>
 
@@ -15,9 +16,9 @@
 
         <nav class="navlist v-class">
             <ul>
-                <li><a href="#main">Home</a></li>
-                <li><a href="#list">Our-List of Cars</a></li>
-                <li><a href="#media">Media</a></li>
+                <li><a href="#main" class="font h-class">Home</a></li>
+                <li><a href="#list" class="font h-class">Our-Cars</a></li>
+                <li><a href="#media" class="font h-class">Media</a></li>
             </ul>
         </nav>
         <img src="home/menu.png" alt="" class="menu">
@@ -52,9 +53,12 @@
     const menu = document.querySelector(".menu")
     const navbar = document.querySelector(".navbar")
     const navlist = document.querySelector(".navlist")
+    const font = document.querySelector(".font")
+
 
     menu.addEventListener('click',()=>{
     navlist.classList.toggle('v-class')
+    font.classList.toggle('h-class')
     })
 </script>
 </body>
