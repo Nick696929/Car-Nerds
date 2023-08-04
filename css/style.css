@@ -81,7 +81,7 @@
     color: #262626;
     cursor: pointer;
     outline-offset: 3px;
-   
+
 }
 
 .main img {
@@ -295,7 +295,7 @@ footer {
 
 .foo {
     display: flex;
-    padding-left: 40px;
+    padding-left: 123px;
     justify-content: center;
 }
 
@@ -462,5 +462,159 @@ footer {
         padding: 15px;
         color: #262626;
     }
+
+}
+
+@media only screen and (min-width:1280px) {
+    .navlist {
+        width: 100vw;
+    }
+
+    .navbar {
+        width: 100vw;
+    }
+
+    .left img {
+        width: 50px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .navlist ul li button {
+        width: 66px;
+        height: 43px;
+        padding-top: 2px;
+        margin-left: 977px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navlist ul li button a {
+        font-size: 18px;
+        margin-left: -18px;
+    }
+
+    .navlist ul li a {
+        font-size: 22px;
+        padding: 11px 0px 13px 19px;
+
+    }
+
+    .navlist ul li a:after {
+        color: rgb(56, 54, 51);
+    }
+
+
+    .main .title {
+        font-size: 30px;
+    }
+
+    .carpic .h2size {
+        font-size: 28px;
+        padding: 24px 51px 0 39px;
+    }
+
+    .carpic img {
+        width: 40%;
+        padding: 0 373px;
+        margin-bottom: -12px;
+        margin-top: -5px;
+    }
+
+    #lfttxt {
+        padding: 0 142px;
+        font-size: 32px;
+    }
+
+    .lfttxt {
+        margin-top: -5px;
+    }
+
+    .lfttxt p {
+        padding-top: 17px;
+        padding-left: 144px;
+        font-size: 13px;
+    }
+
+
+.sm {
+    width: 22px;
+    padding-left: 143px;
+    margin-left: -5px;
+    display: none;
+}
+
+.txxt {
+    font-size: 22px;
+    padding-left: 143px;
+    padding-right: 9px;
+    margin-top: 2px;
+}
+
+.red {
+    height: 40px;
+    margin-bottom: -50px;
+}
+
+.red button {
+    height: 41px;
+    font-size: 20px;
+}
+
+.word {
+    font-size: 42px;
+padding-left: 179px;
+padding-top: 101px;
+margin-bottom: -87px;
+}
+
+.lineup img {
+    width: 70%;
+    padding-left: 178px;
+}
+
+.mda {
+    font-size: 38px;
+}
+.p1 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    border: 2px solid #a9aeb3;
+    padding: 15px;
+    color: #262626;
+}
+
+.var {
+    display: flex;
+    flex-direction: column;
+}
+
+.var img {
+    width: 370px;
+}
+
+.redco {
+    font-size: 26px;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 47px;
+    margin-bottom: -42px;
+    padding-right: 356px;
+}
+
+#price {
+    padding-left: 461px;
+    margin-top: -10px;
+}
+
+
 
 }

@@ -64,7 +64,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.navlist ul li .font:hover{
+
+.navlist ul li .font:hover {
     color: red;
     cursor: pointer;
 }
@@ -108,7 +109,8 @@ body {
     transition: 0.3s;
 
 }
-.btn button:hover{
+
+.btn button:hover {
     cursor: pointer;
     color: red;
     outline-offset: 3px;
@@ -120,7 +122,8 @@ body {
     font-weight: 900;
 
 }
-.btn button a:hover{
+
+.btn button a:hover {
     color: #eb0a1e;
     cursor: pointer;
     outline-offset: 10px;
@@ -157,7 +160,7 @@ body {
 
 footer {
     width: 100vw;
-    background-color: #171717;
+    background-color: #7170709e;
     height: 181px;
 }
 
@@ -172,7 +175,7 @@ footer {
 
 .foo {
     display: flex;
-    padding-left: 40px;
+    padding-left: 116px;
     justify-content: center;
 }
 
@@ -244,11 +247,11 @@ footer {
         padding-top: 100px;
     }
 
-    .navlist ul li .font{
-        
+    .navlist ul li .font {
+
         margin-right: -100px;
 
-       
+
 
     }
 
@@ -257,16 +260,16 @@ footer {
         width: 100px;
         height: 100px;
         opacity: 0;
-        
-        
+
+
     }
-    
-   .h-class{
-    margin: -181px;
-    margin-top: -100px;
-    margin: -51px 88px 0 0;
-    padding-left: 0;
-   }
+
+    .h-class {
+        margin: -181px;
+        margin-top: -100px;
+        margin: -51px 88px 0 0;
+        padding-left: 0;
+    }
 
     .menu {
         display: block;
@@ -347,4 +350,21 @@ footer {
         padding-left: 45px;
         font-size: medium;
     }
+    .foo {
+        display: flex;
+        padding-left: 44px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .media iframe {
+        width: 1201px;
+        height: 613px;
+        cursor: pointer;
+        padding-left: 44px;
+        border-radius: 10%;
+        background: #000;
+    }
+
 }
